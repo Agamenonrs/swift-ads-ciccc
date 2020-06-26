@@ -8,14 +8,14 @@
 
 import Foundation
 
-func test(_ str: String){
-    //let char = Character(str)
-    let array = Array(str)
-    //print(char.isNumber)
-    print(array[0])
-    print(array[1])
-    print(str[0,str.count-1])
-}
+//func test(_ str: String){
+//    //let char = Character(str)
+//    let array = Array(str)
+//    //print(char.isNumber)
+//    print(array[0])
+//    print(array[1])
+//    print(str[0,str.count-1])
+//}
 
 func evaluate(_ expression: String){
     
@@ -27,6 +27,7 @@ func evaluate_helper(_ expression : String, _ index : Int)-> [String] {
     if Character(expression[index]).isNumber {
         return [expression[index],String(index)]
     }else{
+        
         var i = index + 1
         let lhs = evaluate_helper(expression, i)
         i += 1
