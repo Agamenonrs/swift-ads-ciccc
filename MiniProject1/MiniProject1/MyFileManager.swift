@@ -8,35 +8,12 @@
 
 import Foundation
 
-func getCurrentDirectory(){
-    let fileManager = FileManager.default
-    // Get current directory path
-    let path = fileManager.currentDirectoryPath
-    print(path)
-}
-
-//func readDocumentDirectory(){
-//    let documentsUrl =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-//    do {
-//        // Get the directory contents urls (including subfolders urls)
-//        let directoryContents = try FileManager.default.contentsOfDirectory(at: documentsUrl, includingPropertiesForKeys: nil)
-//        print(directoryContents)
-//        // if you want to filter the directory contents you can do like this:
-//        let mp3Files = directoryContents.filter{ $0.pathExtension == "mp4" }
-//        print("mp4 urls:",mp3Files)
-//        let mp3FileNames = mp3Files.map{ $0.deletingPathExtension().lastPathComponent }
-//        print("mp4 list:", mp3FileNames)
-//    } catch {
-//        print(error)
-//    }
-//}
-
 //├─
 //└─
 //│
 
 
-func readDocumentDirectory2(urlPath : URL, _ padding : String){
+func readDocumentDirectory(urlPath : URL, _ padding : String, count: inout [Int]) {
     
     do {
         // Get the directory contents urls (including subfolders urls)
@@ -44,20 +21,25 @@ func readDocumentDirectory2(urlPath : URL, _ padding : String){
         let fileManager = FileManager.default
         var isDir : ObjCBool = false
         for d in directoryContents{
-            //print(d.relativePath)
             if fileManager.fileExists(atPath: d.relativePath, isDirectory:&isDir) {
                 if isDir.boolValue {
                     print(padding, d.lastPathComponent)
                     let p = padding.replacingOccurrences(of: "├─", with: "│ ├─")
-                    readDocumentDirectory2(urlPath: d, p)
+                    count[0]+=1
+                    readDocumentDirectory(urlPath: d, p,count: &count)
+                    
                 } else {
                     print(padding, d.lastPathComponent)
+                    count[1]+=1
                 }
             } else {
-                print("File does not exist")
+                print("Direcotory or File does not exist")
             }
         }
     } catch {
         print(error)
     }
+    
 }
+
+
