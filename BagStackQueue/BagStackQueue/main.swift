@@ -10,4 +10,18 @@ import Foundation
 
 //callHasMosquito()
 //callContainsInBugsSequence()
-callCountdown()
+//callCountdown()
+
+var bag = Bag<String>()
+bag.add(item: "Martin")
+bag.add(item: "Leandro")
+bag.add(item: "Melisa")
+
+print(bag.isEmpty())
+print(bag.count)
+
+for item in bag {
+    print(item)
+}
+
+print(bag)

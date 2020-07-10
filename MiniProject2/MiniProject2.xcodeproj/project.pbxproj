@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C072220A24B164FB00DA6B0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072220924B164FB00DA6B0C /* main.swift */; };
-		C072221224B1651D00DA6B0C /* SequenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072221124B1651D00DA6B0C /* SequenceTest.swift */; };
-		C072224A24B626DD00DA6B0C /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072224924B626DD00DA6B0C /* Bag.swift */; };
+		C072223F24B42E6400DA6B0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072223E24B42E6400DA6B0C /* main.swift */; };
+		C072224724B42ECA00DA6B0C /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072224524B42ECA00DA6B0C /* Board.swift */; };
+		C072224824B42ECA00DA6B0C /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072224624B42ECA00DA6B0C /* QueensSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C072220424B164FB00DA6B0C /* CopyFiles */ = {
+		C072223924B42E6400DA6B0C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C072220624B164FB00DA6B0C /* BagStackQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BagStackQueue; sourceTree = BUILT_PRODUCTS_DIR; };
-		C072220924B164FB00DA6B0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		C072221124B1651D00DA6B0C /* SequenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceTest.swift; sourceTree = "<group>"; };
-		C072224924B626DD00DA6B0C /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		C072223B24B42E6400DA6B0C /* MiniProject2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiniProject2; sourceTree = BUILT_PRODUCTS_DIR; };
+		C072223E24B42E6400DA6B0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C072224524B42ECA00DA6B0C /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../../../../../Downloads/Board.swift; sourceTree = "<group>"; };
+		C072224624B42ECA00DA6B0C /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueensSolver.swift; path = ../../../../../Downloads/QueensSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C072220324B164FB00DA6B0C /* Frameworks */ = {
+		C072223824B42E6400DA6B0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,76 +42,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C07221FD24B164FA00DA6B0C = {
+		C072223224B42E6400DA6B0C = {
 			isa = PBXGroup;
 			children = (
-				C072220824B164FB00DA6B0C /* BagStackQueue */,
-				C072220724B164FB00DA6B0C /* Products */,
+				C072223D24B42E6400DA6B0C /* MiniProject2 */,
+				C072223C24B42E6400DA6B0C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C072220724B164FB00DA6B0C /* Products */ = {
+		C072223C24B42E6400DA6B0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C072220624B164FB00DA6B0C /* BagStackQueue */,
+				C072223B24B42E6400DA6B0C /* MiniProject2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C072220824B164FB00DA6B0C /* BagStackQueue */ = {
+		C072223D24B42E6400DA6B0C /* MiniProject2 */ = {
 			isa = PBXGroup;
 			children = (
-				C072221024B1650400DA6B0C /* Bag */,
-				C072220924B164FB00DA6B0C /* main.swift */,
+				C072224524B42ECA00DA6B0C /* Board.swift */,
+				C072224624B42ECA00DA6B0C /* QueensSolver.swift */,
+				C072223E24B42E6400DA6B0C /* main.swift */,
 			);
-			path = BagStackQueue;
-			sourceTree = "<group>";
-		};
-		C072221024B1650400DA6B0C /* Bag */ = {
-			isa = PBXGroup;
-			children = (
-				C072221124B1651D00DA6B0C /* SequenceTest.swift */,
-				C072224924B626DD00DA6B0C /* Bag.swift */,
-			);
-			path = Bag;
+			path = MiniProject2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C072220524B164FB00DA6B0C /* BagStackQueue */ = {
+		C072223A24B42E6400DA6B0C /* MiniProject2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C072220D24B164FB00DA6B0C /* Build configuration list for PBXNativeTarget "BagStackQueue" */;
+			buildConfigurationList = C072224224B42E6400DA6B0C /* Build configuration list for PBXNativeTarget "MiniProject2" */;
 			buildPhases = (
-				C072220224B164FB00DA6B0C /* Sources */,
-				C072220324B164FB00DA6B0C /* Frameworks */,
-				C072220424B164FB00DA6B0C /* CopyFiles */,
+				C072223724B42E6400DA6B0C /* Sources */,
+				C072223824B42E6400DA6B0C /* Frameworks */,
+				C072223924B42E6400DA6B0C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BagStackQueue;
-			productName = BagStackQueue;
-			productReference = C072220624B164FB00DA6B0C /* BagStackQueue */;
+			name = MiniProject2;
+			productName = MiniProject2;
+			productReference = C072223B24B42E6400DA6B0C /* MiniProject2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C07221FE24B164FA00DA6B0C /* Project object */ = {
+		C072223324B42E6400DA6B0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = Agamenon;
 				TargetAttributes = {
-					C072220524B164FB00DA6B0C = {
+					C072223A24B42E6400DA6B0C = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = C072220124B164FA00DA6B0C /* Build configuration list for PBXProject "BagStackQueue" */;
+			buildConfigurationList = C072223624B42E6400DA6B0C /* Build configuration list for PBXProject "MiniProject2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,31 +111,31 @@
 				en,
 				Base,
 			);
-			mainGroup = C07221FD24B164FA00DA6B0C;
-			productRefGroup = C072220724B164FB00DA6B0C /* Products */;
+			mainGroup = C072223224B42E6400DA6B0C;
+			productRefGroup = C072223C24B42E6400DA6B0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C072220524B164FB00DA6B0C /* BagStackQueue */,
+				C072223A24B42E6400DA6B0C /* MiniProject2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C072220224B164FB00DA6B0C /* Sources */ = {
+		C072223724B42E6400DA6B0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C072221224B1651D00DA6B0C /* SequenceTest.swift in Sources */,
-				C072224A24B626DD00DA6B0C /* Bag.swift in Sources */,
-				C072220A24B164FB00DA6B0C /* main.swift in Sources */,
+				C072224724B42ECA00DA6B0C /* Board.swift in Sources */,
+				C072223F24B42E6400DA6B0C /* main.swift in Sources */,
+				C072224824B42ECA00DA6B0C /* QueensSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C072220B24B164FB00DA6B0C /* Debug */ = {
+		C072224024B42E6400DA6B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,7 +195,7 @@
 			};
 			name = Debug;
 		};
-		C072220C24B164FB00DA6B0C /* Release */ = {
+		C072224124B42E6400DA6B0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +248,7 @@
 			};
 			name = Release;
 		};
-		C072220E24B164FB00DA6B0C /* Debug */ = {
+		C072224324B42E6400DA6B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		C072220F24B164FB00DA6B0C /* Release */ = {
+		C072224424B42E6400DA6B0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -277,25 +269,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C072220124B164FA00DA6B0C /* Build configuration list for PBXProject "BagStackQueue" */ = {
+		C072223624B42E6400DA6B0C /* Build configuration list for PBXProject "MiniProject2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C072220B24B164FB00DA6B0C /* Debug */,
-				C072220C24B164FB00DA6B0C /* Release */,
+				C072224024B42E6400DA6B0C /* Debug */,
+				C072224124B42E6400DA6B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C072220D24B164FB00DA6B0C /* Build configuration list for PBXNativeTarget "BagStackQueue" */ = {
+		C072224224B42E6400DA6B0C /* Build configuration list for PBXNativeTarget "MiniProject2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C072220E24B164FB00DA6B0C /* Debug */,
-				C072220F24B164FB00DA6B0C /* Release */,
+				C072224324B42E6400DA6B0C /* Debug */,
+				C072224424B42E6400DA6B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C07221FE24B164FA00DA6B0C /* Project object */;
+	rootObject = C072223324B42E6400DA6B0C /* Project object */;
 }
