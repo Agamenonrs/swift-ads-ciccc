@@ -10,6 +10,8 @@
 		C072220A24B164FB00DA6B0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072220924B164FB00DA6B0C /* main.swift */; };
 		C072221224B1651D00DA6B0C /* SequenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072221124B1651D00DA6B0C /* SequenceTest.swift */; };
 		C072224A24B626DD00DA6B0C /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072224924B626DD00DA6B0C /* Bag.swift */; };
+		C072224F24BB677B00DA6B0C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072224E24BB677A00DA6B0C /* Stack.swift */; };
+		C072225224BB731700DA6B0C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072225124BB731700DA6B0C /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		C072220924B164FB00DA6B0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C072221124B1651D00DA6B0C /* SequenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceTest.swift; sourceTree = "<group>"; };
 		C072224924B626DD00DA6B0C /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		C072224E24BB677A00DA6B0C /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		C072225124BB731700DA6B0C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +65,13 @@
 		C072220824B164FB00DA6B0C /* BagStackQueue */ = {
 			isa = PBXGroup;
 			children = (
-				C072221024B1650400DA6B0C /* Bag */,
+				C072221124B1651D00DA6B0C /* SequenceTest.swift */,
+				C072224924B626DD00DA6B0C /* Bag.swift */,
+				C072224E24BB677A00DA6B0C /* Stack.swift */,
+				C072225124BB731700DA6B0C /* Queue.swift */,
 				C072220924B164FB00DA6B0C /* main.swift */,
 			);
 			path = BagStackQueue;
-			sourceTree = "<group>";
-		};
-		C072221024B1650400DA6B0C /* Bag */ = {
-			isa = PBXGroup;
-			children = (
-				C072221124B1651D00DA6B0C /* SequenceTest.swift */,
-				C072224924B626DD00DA6B0C /* Bag.swift */,
-			);
-			path = Bag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C072225224BB731700DA6B0C /* Queue.swift in Sources */,
+				C072224F24BB677B00DA6B0C /* Stack.swift in Sources */,
 				C072221224B1651D00DA6B0C /* SequenceTest.swift in Sources */,
 				C072224A24B626DD00DA6B0C /* Bag.swift in Sources */,
 				C072220A24B164FB00DA6B0C /* main.swift in Sources */,

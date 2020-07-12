@@ -42,7 +42,7 @@ public final class Bag<E> : Sequence {
         count += 1
     }
     
-    /// You have to create thato to sequence
+    /// You have to create that to sequence
     public struct BagIterator<E> : IteratorProtocol{
         
         private var current: Node<E>?
