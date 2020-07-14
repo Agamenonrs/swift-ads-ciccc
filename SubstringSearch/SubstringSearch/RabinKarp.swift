@@ -20,7 +20,7 @@ func searchRabinKarp(text: String , pattern: String) -> [Int] {
     
     
     for idx in 0...(text.count - pattern.count) {
-        endIdx = patternLenth - 1 + idx
+        endIdx = patternLenth + idx
         let window = text[idx,endIdx]
         if window.hashValue == patternHash {
             if window == pattern {

@@ -14,4 +14,4 @@ let pattern = "abcdeabab"
 let text = "wewewabcdeababrereabcdeabababcdeabab"
 print(searchKMP(text: text, pattern: pattern))
 //print(pattern.hashValue)
-print(searchKMP(text: text, pattern: pattern))
+print(searchRabinKarp(text: text, pattern: pattern))
