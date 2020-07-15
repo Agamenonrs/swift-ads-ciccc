@@ -10,8 +10,8 @@ import Foundation
 
 //print(calcPrefixLen(pattern: "abcdeabab"))
 
-let pattern = "abcdeabab"
-let text = "wewewabcdeababrereabcdeabababcdeabab"
+let pattern = "abcab"
+let text = "abdabcabxx"
 print(searchKMP(text: text, pattern: pattern))
 //print(pattern.hashValue)
-print(searchRabinKarp(text: text, pattern: pattern))
+//print(searchRabinKarp(text: text, pattern: pattern))

@@ -9,28 +9,28 @@
 import Foundation
 
 func searchKMP(text: String, pattern: String)-> [Int] {
-    var t: Int = 0
-    var p: Int = 0
+    var textCurrentPosition: Int = 0
+    var patternCurrentPosition: Int = 0
     
-    let tLen: Int = text.count;
-    let pLen = pattern.count
+    let textLen: Int = text.count;
+    let patternLen = pattern.count
     
     var matches: [Int] = []
-    let prefixLen = calcPrefixLen(pattern: pattern)
+    let arrayPrefix = calcPrefixLen(pattern: pattern)
     
-    while t < tLen {
-        if pattern[p] == text[t] {
-            p += 1
-            t += 1
-            if p == pLen {
-                matches.append(t - p)
-                p = prefixLen[p]
+     while textCurrentPosition < textLen {
+        if pattern[patternCurrentPosition] == text[textCurrentPosition] {
+            patternCurrentPosition += 1
+            textCurrentPosition += 1
+            if patternCurrentPosition == patternLen {
+                matches.append(textCurrentPosition - patternCurrentPosition)
+                patternCurrentPosition = arrayPrefix[patternCurrentPosition]
             }
         }else {
-            p = prefixLen[p]
-            if p < 0 {
-                t += 1
-                p += 1
+            patternCurrentPosition = arrayPrefix[patternCurrentPosition]
+            if patternCurrentPosition < 0 {
+                textCurrentPosition += 1
+                patternCurrentPosition += 1
             }
         }
     }
@@ -55,7 +55,7 @@ func calcPrefixLen(pattern: String)-> [Int]{
             prefixLen = ar[prefixLen]
         }else {
             i += 1
-            ar[i] = 0
+            //ar[i] = 0
         }
     }
     return ar
