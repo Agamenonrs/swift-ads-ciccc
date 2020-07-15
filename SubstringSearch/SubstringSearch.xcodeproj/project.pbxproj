@@ -11,6 +11,7 @@
 		C072226824BBDC4E00DA6B0C /* KMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072226724BBDC4E00DA6B0C /* KMP.swift */; };
 		C072226D24BBE0F300DA6B0C /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072226C24BBE0F300DA6B0C /* String+DPStringTool.swift */; };
 		C072227324BE1BE500DA6B0C /* RabinKarp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072227224BE1BE500DA6B0C /* RabinKarp.swift */; };
+		C072227624BF64AE00DA6B0C /* ElementSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072227524BF64AE00DA6B0C /* ElementSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		C072226724BBDC4E00DA6B0C /* KMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMP.swift; sourceTree = "<group>"; };
 		C072226C24BBE0F300DA6B0C /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
 		C072227224BE1BE500DA6B0C /* RabinKarp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabinKarp.swift; sourceTree = "<group>"; };
+		C072227524BF64AE00DA6B0C /* ElementSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 		C072225F24BBDC2D00DA6B0C /* SubstringSearch */ = {
 			isa = PBXGroup;
 			children = (
-				C072226C24BBE0F300DA6B0C /* String+DPStringTool.swift */,
 				C072226924BBE09C00DA6B0C /* Utils */,
+				C072227424BF646600DA6B0C /* ElementSearch */,
+				C072226C24BBE0F300DA6B0C /* String+DPStringTool.swift */,
 				C072226024BBDC2D00DA6B0C /* main.swift */,
 				C072226724BBDC4E00DA6B0C /* KMP.swift */,
 				C072227224BE1BE500DA6B0C /* RabinKarp.swift */,
@@ -77,6 +80,14 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		C072227424BF646600DA6B0C /* ElementSearch */ = {
+			isa = PBXGroup;
+			children = (
+				C072227524BF64AE00DA6B0C /* ElementSearch.swift */,
+			);
+			path = ElementSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C072227324BE1BE500DA6B0C /* RabinKarp.swift in Sources */,
+				C072227624BF64AE00DA6B0C /* ElementSearch.swift in Sources */,
 				C072226D24BBE0F300DA6B0C /* String+DPStringTool.swift in Sources */,
 				C072226824BBDC4E00DA6B0C /* KMP.swift in Sources */,
 				C072226124BBDC2D00DA6B0C /* main.swift in Sources */,

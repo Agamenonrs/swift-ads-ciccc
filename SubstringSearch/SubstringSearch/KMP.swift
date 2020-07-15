@@ -58,6 +58,7 @@ func calcPrefixLen(pattern: String)-> [Int]{
             //ar[i] = 0
         }
     }
+    print(ar)
     return ar
     
 }
