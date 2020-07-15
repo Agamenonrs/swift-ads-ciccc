@@ -8,6 +8,28 @@
 
 import Foundation
 
+func A(m: Int) {
+    var arr: [Int] =  []
+    while true {
+        let elem = Int(readLine()!)! // N times
+        if arr.contains(elem){
+            continue;
+        }
+        if arr.count < m {
+            arr.append(elem)
+            mergeSort(&arr,0,arr.count)
+        }else if elem > arr[0]{
+            arr[0] = elem
+            mergeSort(&arr,0,arr.count)
+        }
+        if arr.count == m {
+            print(arr)
+        }
+        // some way to store M smallest or largest elements
+    }
+    // print M smallest or largest elements
+}
+
 func largestElements(elements: [Int], size: Int) -> [Int] {
     var result: [Int] = []
     result.append(elements[0])
@@ -67,5 +89,5 @@ fileprivate func merge(_ numbers: inout [Int],_ start: Int ,_ middle : Int,_ end
     for i in 0..<position {
         numbers[start + i] = newArray[i]
     }
-    print(numbers)
+    //print(numbers)
 }
