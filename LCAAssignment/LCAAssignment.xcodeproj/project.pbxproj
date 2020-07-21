@@ -8,15 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C07222A524C49F0F00DA6B0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222A424C49F0F00DA6B0C /* main.swift */; };
-		C07222AC24C49F3600DA6B0C /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222AB24C49F3600DA6B0C /* LCA.swift */; };
-		C07222AE24C4FFEA00DA6B0C /* LCA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222AD24C4FFEA00DA6B0C /* LCA2.swift */; };
-		C07222B224C5080A00DA6B0C /* LCA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222B124C5080A00DA6B0C /* LCA3.swift */; };
-		C07222B424C51CFB00DA6B0C /* LCA4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222B324C51CFB00DA6B0C /* LCA4.swift */; };
 		C07222B624C52C7F00DA6B0C /* LCA5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222B524C52C7F00DA6B0C /* LCA5.swift */; };
-		C07222B824C6431500DA6B0C /* LCA6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222B724C6431400DA6B0C /* LCA6.swift */; };
-		C07222BA24C64B6000DA6B0C /* LCA7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222B924C64B6000DA6B0C /* LCA7.swift */; };
-		C07222BC24C6588C00DA6B0C /* LCA8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222BB24C6588C00DA6B0C /* LCA8.swift */; };
-		C07222BE24C66A3100DA6B0C /* LCA9.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07222BD24C66A3100DA6B0C /* LCA9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,15 +26,7 @@
 /* Begin PBXFileReference section */
 		C07222A124C49F0F00DA6B0C /* LCAAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LCAAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07222A424C49F0F00DA6B0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		C07222AB24C49F3600DA6B0C /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
-		C07222AD24C4FFEA00DA6B0C /* LCA2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA2.swift; sourceTree = "<group>"; };
-		C07222B124C5080A00DA6B0C /* LCA3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA3.swift; sourceTree = "<group>"; };
-		C07222B324C51CFB00DA6B0C /* LCA4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA4.swift; sourceTree = "<group>"; };
 		C07222B524C52C7F00DA6B0C /* LCA5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA5.swift; sourceTree = "<group>"; };
-		C07222B724C6431400DA6B0C /* LCA6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA6.swift; sourceTree = "<group>"; };
-		C07222B924C64B6000DA6B0C /* LCA7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA7.swift; sourceTree = "<group>"; };
-		C07222BB24C6588C00DA6B0C /* LCA8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA8.swift; sourceTree = "<group>"; };
-		C07222BD24C66A3100DA6B0C /* LCA9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA9.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,15 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				C07222A424C49F0F00DA6B0C /* main.swift */,
-				C07222AD24C4FFEA00DA6B0C /* LCA2.swift */,
-				C07222AB24C49F3600DA6B0C /* LCA.swift */,
-				C07222B124C5080A00DA6B0C /* LCA3.swift */,
-				C07222B324C51CFB00DA6B0C /* LCA4.swift */,
 				C07222B524C52C7F00DA6B0C /* LCA5.swift */,
-				C07222B724C6431400DA6B0C /* LCA6.swift */,
-				C07222B924C64B6000DA6B0C /* LCA7.swift */,
-				C07222BB24C6588C00DA6B0C /* LCA8.swift */,
-				C07222BD24C66A3100DA6B0C /* LCA9.swift */,
 			);
 			path = LCAAssignment;
 			sourceTree = "<group>";
@@ -147,15 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07222BC24C6588C00DA6B0C /* LCA8.swift in Sources */,
 				C07222B624C52C7F00DA6B0C /* LCA5.swift in Sources */,
-				C07222B224C5080A00DA6B0C /* LCA3.swift in Sources */,
-				C07222AE24C4FFEA00DA6B0C /* LCA2.swift in Sources */,
-				C07222AC24C49F3600DA6B0C /* LCA.swift in Sources */,
-				C07222BA24C64B6000DA6B0C /* LCA7.swift in Sources */,
-				C07222B424C51CFB00DA6B0C /* LCA4.swift in Sources */,
-				C07222B824C6431500DA6B0C /* LCA6.swift in Sources */,
-				C07222BE24C66A3100DA6B0C /* LCA9.swift in Sources */,
 				C07222A524C49F0F00DA6B0C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
