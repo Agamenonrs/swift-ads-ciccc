@@ -17,11 +17,10 @@ func canCompleteCircuit(_ gas: [Int], _ cost: [Int]) -> Int {
     }
     var index = -1
     for i in 0..<gas.count{
-        var newArray = diffs[i..<diffs.count]
-        newArray.append(contentsOf: diffs[0..<i])
+        
         var sum = 0
-        for v in newArray {
-            sum += v
+        for j in i..<gas.count * 2 - 1 {
+            sum += diffs[j %  gas.count]
             if sum < 0 {
                 break
             }
@@ -30,10 +29,8 @@ func canCompleteCircuit(_ gas: [Int], _ cost: [Int]) -> Int {
             index = i
             break
         }
-        print(newArray)
+        print(diffs)
     }
-    
-    
     //print(totalCost)
     return index;
 }

@@ -15,8 +15,8 @@ import Foundation
 // cost = [3, 4, 5, 1, 2]
                     3
 //          -2 -2 -2  3  3
-//print(canCompleteCircuit([2,3,4], [3,4,3]))
+print(canCompleteCircuit([2,3,4], [3,4,3]))
 //print(canCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]))
 
 
-print(partitionLabels("ababcbacawdwefegdehijhklij"))
+//print(partitionLabels("ababcbacawdwefegdehijhklij"))
