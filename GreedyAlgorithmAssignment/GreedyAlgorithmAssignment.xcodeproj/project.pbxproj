@@ -10,6 +10,8 @@
 		C0D0894C24D23BF50038896A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0894B24D23BF50038896A /* main.swift */; };
 		C0D0895324D23C180038896A /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0895224D23C180038896A /* GasStation.swift */; };
 		C0D0895524D23CC80038896A /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0895424D23CC80038896A /* PartitionLabels.swift */; };
+		C0D0895724D37B590038896A /* TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0895624D37B590038896A /* TaskScheduler.swift */; };
+		C0D0895924D37B930038896A /* TwoCitySchedulling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0895824D37B930038896A /* TwoCitySchedulling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		C0D0894B24D23BF50038896A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0D0895224D23C180038896A /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		C0D0895424D23CC80038896A /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
+		C0D0895624D37B590038896A /* TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScheduler.swift; sourceTree = "<group>"; };
+		C0D0895824D37B930038896A /* TwoCitySchedulling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCitySchedulling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				C0D0894B24D23BF50038896A /* main.swift */,
 				C0D0895224D23C180038896A /* GasStation.swift */,
 				C0D0895424D23CC80038896A /* PartitionLabels.swift */,
+				C0D0895624D37B590038896A /* TaskScheduler.swift */,
+				C0D0895824D37B930038896A /* TwoCitySchedulling.swift */,
 			);
 			path = GreedyAlgorithmAssignment;
 			sourceTree = "<group>";
@@ -126,8 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D0895724D37B590038896A /* TaskScheduler.swift in Sources */,
 				C0D0895324D23C180038896A /* GasStation.swift in Sources */,
 				C0D0895524D23CC80038896A /* PartitionLabels.swift in Sources */,
+				C0D0895924D37B930038896A /* TwoCitySchedulling.swift in Sources */,
 				C0D0894C24D23BF50038896A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
