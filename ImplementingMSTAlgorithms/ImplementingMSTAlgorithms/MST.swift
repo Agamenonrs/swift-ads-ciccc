@@ -48,7 +48,7 @@ public final class MST {
             let g = pq.dequeue()!
             //print("src \(g.src) dest \(g.dest) weight \(g.weight)")
             if !visited[g.dest] {
-                print("src \(g.src) dest \(g.dest) weight \(g.weight)")
+                //print("src \(g.src) dest \(g.dest) weight \(g.weight)")
                 visited[g.dest] = true
                 minCost += g.weight
                 for value in adj[g.dest]{
