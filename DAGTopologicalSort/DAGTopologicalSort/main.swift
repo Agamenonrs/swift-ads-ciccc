@@ -10,5 +10,5 @@ import Foundation
 
 //print(findOrder(4, [[1,0],[2,0],[3,1],[3,2]]))
 //print(isPossibleFinishAllCourses(2,[[1,0]]))
-print(isPossibleFinishAllCourses(2,[[1,0],[0,1]]))
+//print(isPossibleFinishAllCourses(2,[[1,0],[0,1]]))
 

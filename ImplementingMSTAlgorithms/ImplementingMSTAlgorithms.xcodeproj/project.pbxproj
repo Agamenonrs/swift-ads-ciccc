@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		C0D0897524D3ACEB0038896A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0897424D3ACEB0038896A /* main.swift */; };
 		C0D0897C24D3AD290038896A /* MST.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0897B24D3AD290038896A /* MST.swift */; };
-		C0D0897E24D3AEF50038896A /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0897D24D3AEF50038896A /* UF.swift */; };
-		C0D0898024D485F00038896A /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0897F24D485F00038896A /* IndexPriorityQueue.swift */; };
-		C0D0898224D48D4B0038896A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0898124D48D4B0038896A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,9 +27,6 @@
 		C0D0897124D3ACEB0038896A /* ImplementingMSTAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImplementingMSTAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D0897424D3ACEB0038896A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0D0897B24D3AD290038896A /* MST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MST.swift; sourceTree = "<group>"; };
-		C0D0897D24D3AEF50038896A /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
-		C0D0897F24D485F00038896A /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
-		C0D0898124D48D4B0038896A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +61,6 @@
 			children = (
 				C0D0897424D3ACEB0038896A /* main.swift */,
 				C0D0897B24D3AD290038896A /* MST.swift */,
-				C0D0897D24D3AEF50038896A /* UF.swift */,
-				C0D0897F24D485F00038896A /* IndexPriorityQueue.swift */,
-				C0D0898124D48D4B0038896A /* Model.swift */,
 			);
 			path = ImplementingMSTAlgorithms;
 			sourceTree = "<group>";
@@ -132,11 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0D0898224D48D4B0038896A /* Model.swift in Sources */,
 				C0D0897C24D3AD290038896A /* MST.swift in Sources */,
 				C0D0897524D3ACEB0038896A /* main.swift in Sources */,
-				C0D0898024D485F00038896A /* IndexPriorityQueue.swift in Sources */,
-				C0D0897E24D3AEF50038896A /* UF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
