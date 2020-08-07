@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		C083FA7B24D8C3C000033FB4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083FA7A24D8C3C000033FB4 /* main.swift */; };
 		C083FA8224D8D90300033FB4 /* MinimumCostFlowAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083FA8124D8D90300033FB4 /* MinimumCostFlowAssignment.swift */; };
-		C083FA8724DA622000033FB4 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083FA8624DA622000033FB4 /* UF.swift */; };
-		C083FA8924DA65A500033FB4 /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083FA8824DA65A500033FB4 /* IndexPriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +27,6 @@
 		C083FA7724D8C3C000033FB4 /* MinimumCostFlowAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MinimumCostFlowAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		C083FA7A24D8C3C000033FB4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C083FA8124D8D90300033FB4 /* MinimumCostFlowAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlowAssignment.swift; sourceTree = "<group>"; };
-		C083FA8624DA622000033FB4 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UF.swift; path = ../../ImplementingMSTAlgorithms/ImplementingMSTAlgorithms/UF.swift; sourceTree = "<group>"; };
-		C083FA8824DA65A500033FB4 /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndexPriorityQueue.swift; path = ../../ImplementingMSTAlgorithms/ImplementingMSTAlgorithms/IndexPriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +61,6 @@
 			children = (
 				C083FA7A24D8C3C000033FB4 /* main.swift */,
 				C083FA8124D8D90300033FB4 /* MinimumCostFlowAssignment.swift */,
-				C083FA8824DA65A500033FB4 /* IndexPriorityQueue.swift */,
-				C083FA8624DA622000033FB4 /* UF.swift */,
 			);
 			path = MinimumCostFlowAssignment;
 			sourceTree = "<group>";
@@ -131,8 +125,6 @@
 			files = (
 				C083FA8224D8D90300033FB4 /* MinimumCostFlowAssignment.swift in Sources */,
 				C083FA7B24D8C3C000033FB4 /* main.swift in Sources */,
-				C083FA8924DA65A500033FB4 /* IndexPriorityQueue.swift in Sources */,
-				C083FA8724DA622000033FB4 /* UF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
