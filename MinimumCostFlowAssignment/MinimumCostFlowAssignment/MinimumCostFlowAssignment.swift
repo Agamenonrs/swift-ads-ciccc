@@ -90,9 +90,9 @@ func kruskaMST(_ graph: [[(v: Int, w: Int)]], _ aux: [Edge], _ d: Int) -> Int{
         uf.union(edge.u,edge.v)
         mstEdges.append(edge)
     }
-//    for edge in mstEdges{
-//        print(edge)
-//    }
+    for edge in mstEdges{
+        print(edge)
+    }
     var count = 0
     for o in aux{
         if mstEdges.contains(o) {
